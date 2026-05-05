@@ -81,38 +81,49 @@ body {
 }
 
 /* TESTIMONIALS */
+/* TESTIMONIAL SECTION BACKGROUND */
 .testimonials {
-  background-color: var(--light-bg);
+  background: linear-gradient(135deg, #f6b73c, #f5a623);
+  color: #000;
+}
+
+/* HEADING */
+.testimonials h3 {
+  font-weight: 700;
+  max-width: 500px;
 }
 
 /* CARD */
 .testimonial-card {
-  background-color: white;
-  padding: 25px;
-  border-radius: 12px;
-  margin-top: 20px;
-  text-align: left;
+  background-color: #eeeeee;
+  padding: 20px;
+  border-radius: 20px;
+}
+
+/* STARS */
+.stars {
+  color: orange;
+  font-size: 14px;
+  margin-bottom: 10px;
 }
 
 /* TEXT */
 .testimonial-card p {
-  font-size: 14px;
-  color: #555;
+  font-size: 13px;
+  color: #333;
 }
 
 /* NAME */
 .testimonial-card h6 {
-  margin-top: 15px;
-  font-weight: 700;
-  color: var(--dark-text);
+  margin-top: 10px;
+  font-weight: 600;
 }
-
 /* FEATURED LOGOS */
-.featured p {
-  color: #777;
-  font-size: 14px;
+.featured {
+  background: linear-gradient(135deg, #f6b73c, #f5a623);
+  padding-top: 20px;
+  padding-bottom: 40px;
 }
-
 /* LOGO IMAGES */
 .logo-img {
   max-height: 30px;
