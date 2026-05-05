@@ -211,6 +211,14 @@ body {
   font-weight: 600;
 }
 
+.btn-ios {
+  background-color: white;
+  color: var(--primary-color);
+  border: none;
+  padding: 12px 20px;
+  border-radius: 25px;
+  font-weight: 600;
+}
 
 /* BLOG SECTION */
 .blog {
