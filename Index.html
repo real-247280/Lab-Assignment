@@ -15,23 +15,31 @@
 <body>
 <!-- NAVBAR START -->
 <header class="navbar-section">
-  <nav class="container d-flex justify-content-between align-items-center py-3">
+  <nav class="container d-flex align-items-center py-3">
 
     <!-- Logo -->
-    <h4 class="logo m-0">Certo</h4>
+<h4 class="logo m-0 d-flex align-items-center gap-2">
+  Certo
+  <img src="assets/css/images/Path 10741.png" class="logo-icon" alt="logo">
+</h4>
+    <!-- RIGHT SIDE (menu + button) -->
+    <div class="ms-auto d-flex align-items-center gap-4">
 
-    <!-- Menu -->
-    <ul class="d-flex gap-4 list-unstyled mb-0">
-      <li><a href="#" class="nav-link-custom">iPhone</a></li>
-      <li><a href="#" class="nav-link-custom">Android</a></li>
-      <li><a href="#" class="nav-link-custom">Help</a></li>
-      <li><a href="#" class="nav-link-custom">Company</a></li>
-    </ul>
+      <!-- Menu -->
+      <ul class="d-flex gap-4 list-unstyled mb-0">
+        <li><a href="#" class="nav-link-custom">iPhone</a></li>
+        <li><a href="#" class="nav-link-custom">Android</a></li>
+        <li><a href="#" class="nav-link-custom">Help</a></li>
+        <li><a href="#" class="nav-link-custom">Company</a></li>
+      </ul>
 
-    <!-- Button -->
-    <button class="sign-btn">Sign in</button>
+      <!-- Button -->
+      <button class="sign-btn">Sign in</button>
+
+    </div>
 
   </nav>
+</header>
 <!-- HERO SECTION START -->
 <section class="hero-section py-5">
   <div class="container">
@@ -40,7 +48,7 @@
       <!-- LEFT SIDE -->
       <div class="col-lg-6">
         <p class="hero-text">
-          Think your phone has been hacked? Our trusted apps make it easy.
+          Think your phone has been hacked? Our trusted apps make it easy for you to scan , detect and remove threat from your iphone and android devices. Protect your privacy in just a few clicks.
         </p>
 
         <div class="d-flex gap-3 mt-4">
@@ -51,8 +59,14 @@
 
       <!-- RIGHT SIDE -->
       <div class="col-lg-6 text-center">
-<img src="assets/css/images/Behind Phone.png" width="300" style="border:2px solid red;">
-      </div>
+  <div class="phone-wrapper">
+
+    <!-- BACK IMAGE -->
+    <img src="assets/css/images/Behind Phone.png" class="bg-phone" alt="background">
+    <!-- FRONT IMAGE -->
+
+  </div>
+</div>
 
     </div>
   </div>
